@@ -1,5 +1,6 @@
 # firstLAMPstack
 
+![alt text](https://cdn-images-1.medium.com/fit/t/1600/480/1*FJTQ53A9dCdcmM9g78aaOg.jpeg)
 
 Following this Tutorial
 https://randomnerdtutorials.com/raspberry-pi-apache-mysql-php-lamp-server/
