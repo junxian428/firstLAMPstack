@@ -140,6 +140,9 @@ create table follows (
 
 _______________________________________________________________________________________________________________________________________________________________
 
+What issue I have faced is the data is not written into MySQL
+
+
 ERROR LOG:
 
 PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, string given in /var/www/html/index.php on line 15
