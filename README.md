@@ -78,3 +78,8 @@ Project Title: Twitter Clone
 Bug Fixed:
 
 https://stackoverflow.com/questions/10615436/fatal-error-call-to-undefined-function-mysql-connect
+
+
+Database Handling:
+
+![alt text](https://user-images.githubusercontent.com/58724748/104832745-4c354980-58ce-11eb-8277-a6999efc9962.png)
