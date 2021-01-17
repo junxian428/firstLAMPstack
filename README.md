@@ -65,7 +65,16 @@ pi@raspberrypi:~ $ sudo chmod -R 770 /var/www/html/
 
 pi@raspberrypi:~ $ ls -lh /var/www/
 
+________________________________________________________________________________________________________________________________
+Text Editor VIM:
 
+sudo apt update
+
+sudo apt search vim
+
+sudo apt install vim
+
+Source: https://www.cyberciti.biz/faq/howto-install-vim-on-ubuntu-linux
 __________________________________________________________________________________________________________________________________
 TUTUORIAL
 
