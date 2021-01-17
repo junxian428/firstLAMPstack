@@ -138,3 +138,29 @@ create table follows (
  );
 
 
+
+ERROR LOG:
+
+PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, string given in /var/www/html/index.php on line 15
+
+PHP Warning:  Use of undefined constant mysql_select_db - assumed 'mysql_select_db' (this will throw an Error in a future version of PHP) in /var/www/html/index.php on line 16
+
+PHP Notice:  Undefined index: tweet in /var/www/html/index.php on line 35
+
+<form action=index.php>
+
+<textarea name=tweet> </textarea>
+
+<input type=submit value="Tweet">
+
+</form>
+
+
+PHP Notice:  Undefined variable: conn in /var/www/html/index.php on line 23
+
+PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, string given in /var/www/html/index.php on line 23
+
+<table border=1>PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /var/www/html/index.php on line 61
+
+
+
