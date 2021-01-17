@@ -80,6 +80,9 @@ Bug Fixed:
 https://stackoverflow.com/questions/10615436/fatal-error-call-to-undefined-function-mysql-connect
 
 
+
+
+
 Database Handling:
 
 ![alt text](https://user-images.githubusercontent.com/58724748/104832745-4c354980-58ce-11eb-8277-a6999efc9962.png)
@@ -87,7 +90,14 @@ Database Handling:
 
 ![alt text](https://user-images.githubusercontent.com/58724748/104832907-e34ed100-58cf-11eb-9ce1-9afefa0e3962.png)
 
-create table tweets (tid int auto_increment, primary key(tid), uid int, post varchar(140), date datetime, key(date), key(uid, date));
+
+create database tweetlead;
+
+use tweetlead;
+
+1.create table users(uid int auto_increment, primary key (uid), ip varchar(64) unique);
+
+2.create table tweets (tid int auto_increment, primary key(tid), uid int, post varchar(140), date datetime, key(date), key(uid, date));
 
 create table tweets (
     
@@ -106,7 +116,7 @@ create table tweets (
     key(uid, date)
 );
 
-create table follows (uid int, follower int, primary key(uid, follower));
+3.create table follows (uid int, follower int, primary key(uid, follower));
 
 create table follows (
 
