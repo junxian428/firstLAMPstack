@@ -65,3 +65,16 @@ pi@raspberrypi:~ $ sudo chmod -R 770 /var/www/html/
 
 pi@raspberrypi:~ $ ls -lh /var/www/
 
+
+__________________________________________________________________________________________________________________________________
+TUTUORIAL
+
+Tutor: Techlead
+Youtube Link: https://youtu.be/1YXqXPWjmKk
+Project Title: Twitter Clone
+
+![alt text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFk2IbTjU-arbu7owjZF757NDLLINVh6UgvQ&usqp=CAU)
+
+Bug Fixed:
+
+https://stackoverflow.com/questions/10615436/fatal-error-call-to-undefined-function-mysql-connect
