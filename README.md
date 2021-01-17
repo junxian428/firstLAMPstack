@@ -83,3 +83,6 @@ https://stackoverflow.com/questions/10615436/fatal-error-call-to-undefined-funct
 Database Handling:
 
 ![alt text](https://user-images.githubusercontent.com/58724748/104832745-4c354980-58ce-11eb-8277-a6999efc9962.png)
+
+
+![alt text](https://user-images.githubusercontent.com/58724748/104832907-e34ed100-58cf-11eb-9ce1-9afefa0e3962.png)
