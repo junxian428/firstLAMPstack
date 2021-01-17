@@ -86,3 +86,24 @@ Database Handling:
 
 
 ![alt text](https://user-images.githubusercontent.com/58724748/104832907-e34ed100-58cf-11eb-9ce1-9afefa0e3962.png)
+
+create table tweets (tid int auto_increment, primary key(tid), uid int, post varchar(140), date datetime, key(date), key(uid, date));
+
+create table tweets (
+    
+    tid int auto_increment, 
+    
+    primary key(tid), 
+   
+    uid int, 
+   
+    post varchar(140), 
+   
+    date datetime, 
+   
+    key(date), 
+    
+    key(uid, date)
+);
+
+
