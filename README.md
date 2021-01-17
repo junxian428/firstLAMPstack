@@ -109,6 +109,7 @@ create table tweets (
 create table follows (uid int, follower int, primary key(uid, follower));
 
 create table follows (
+
    uid int, 
    
    follower int, 
