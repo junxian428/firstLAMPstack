@@ -1,0 +1,52 @@
+<?php
+
+$dbhost = 'localhost';
+$dbuser = 'admin';
+$dbpass = 'w2000y07177';
+$dbname = 'junxian';
+
+$conn = mysqli_connect($dbhost, $dbuser, $dbpass,$dbname);
+mysqli_select_db($conn, $dbname);
+
+
+function query($query){
+  $result = mysqli_query($conn, "select * from users");
+  return $result;
+}
+
+
+function getSingle($query) {
+ $result = query($query);
+ $row = mysqli_fetch_row($result);
+ return $row[0];
+
+}
+
+
+
+if($_GET['tweet']){
+ $tweet = $_GET['tweet'];
+ $ip = $_SERVER['REMOTE_ADDR'];
+ $uid = getSingle("select uid,ip from user where ip = $ip");
+ 
+ if (!$uid){
+ query("insert into user(ip) values ('$ip')");
+ }
+ 
+ print" $tweet, $ip";
+ 
+}
+
+
+
+print <<<EOF
+
+<form action=index.php method=get>
+<input type="text" name="tweet">
+<input type=submit value="Tweet">
+</form>
+
+EOF;
+
+
+
